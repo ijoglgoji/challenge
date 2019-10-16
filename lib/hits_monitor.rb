@@ -35,7 +35,7 @@ module Assignment
     def reset_cache
       @mutex.synchronize do
         @cache = {}
-      ends
+      end
     end
 
     def print_hits_by_section
